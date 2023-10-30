@@ -1,0 +1,36 @@
+html{
+    font-size: 10px;
+}
+div{
+    font-size: 12px;
+  
+}
+
+#id1{
+    font-size: 10px;
+    text-align: start;
+    border: 1px solid black;
+}
+
+#id2{
+    font-size: 7.5pt;
+    text-align: center;
+    border: 2px solid black;
+
+}
+
+#id3{
+    font-size: 2em;
+    text-align: end;
+    border: 2px dotted black;
+
+}
+
+#id4{
+    font-size: 2rem;
+    text-align: start;
+    border: 2px dotted red;
+
+}
+
+

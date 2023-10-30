@@ -1,0 +1,12 @@
+.ul1{
+    background-color: orange;
+    text-decoration: underline;
+    list-style: circle;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "comic sans ms";
+}
+.ul2{
+    text-decoration: line-through;
+    list-style: none;
+}

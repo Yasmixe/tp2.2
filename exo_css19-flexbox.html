@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    #item1{
+        border: 1px dotted black;
+        background-color: #ffff;
+        text-align: start;
+        padding-top: 25px;
+        font-size: large;
+        font-weight: bold;
+        
+    }
+    #item2{
+        margin: 0;
+        border: 1px dotted black;
+        background-color: #55AAFF;
+        font-size: 20px;
+        padding: 10px;
+        display: flex;
+        grid-gap: 10px;
+
+    }
+    .container{
+        height: 80px;
+        padding: 10px;
+        background-color: #ffff;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .new{
+        width: 200px;
+        border: 1px solid black;
+        background-color: #BBEEFF;
+        text-align: center;
+        padding-top: 15px;
+    }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="item1">Logo</div>
+        <div class="item" id="item2">
+            <div class="new">Accueil</div>
+            <div class="new">Page1</div>
+            <div class="new">Page2</div>
+            <div class="new">Connexion</div>
+        </div>
+    </div>
+</body>
+</html>
